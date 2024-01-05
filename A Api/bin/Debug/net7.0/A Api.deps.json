@@ -2364,6 +2364,16 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "B Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "C Data": "1.0.0",
+          "Microsoft.IdentityModel.Tokens": "7.0.3"
+        },
+        "runtime": {
+          "B Domain.dll": {}
+        }
+      },
       "C Data/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
@@ -3770,6 +3780,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "B Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "C Data/1.0.0": {
       "type": "project",

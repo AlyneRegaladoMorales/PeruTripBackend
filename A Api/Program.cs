@@ -1,4 +1,8 @@
+using B_Domain.Service;
+using B_Domain.Service.Interface;
 using C_Data.Context;
+using C_Data.Persistence;
+using C_Data.Persistence.Interface;
 using Microsoft.EntityFrameworkCore;
 using PeruTripBackend.Mapper;
 
@@ -10,6 +14,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Dependencie Injection
+builder.Services.AddScoped<IRolDomain, RolDomain>();
+builder.Services.AddScoped<IRolData, RolData>();
+
+builder.Services.AddScoped<IUsuarioDomain, UsuarioDomain>();
+builder.Services.AddScoped<IUsuarioData, UsuarioData>();
 
 //Cors -> Connection to front
 builder.Services.AddCors(options =>

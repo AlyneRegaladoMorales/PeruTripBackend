@@ -1,0 +1,15 @@
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\bin\Debug\net7.0\B Domain.deps.json
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\bin\Debug\net7.0\B Domain.dll
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\bin\Debug\net7.0\B Domain.pdb
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\bin\Debug\net7.0\C Data.dll
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\bin\Debug\net7.0\C Data.pdb
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.csproj.AssemblyReference.cache
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.AssemblyInfoInputs.cache
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.AssemblyInfo.cs
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.csproj.CoreCompileInputs.cache
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.csproj.CopyComplete
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.dll
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\refint\B Domain.dll
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\B Domain.pdb
+D:\Alyne\Proyecto\PeruTripBackend\B Domain\obj\Debug\net7.0\ref\B Domain.dll

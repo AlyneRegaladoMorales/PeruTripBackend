@@ -268,3 +268,5 @@ D:\Alyne\Proyecto\PeruTripBackend\A Api\obj\Debug\net7.0\refint\A Api.dll
 D:\Alyne\Proyecto\PeruTripBackend\A Api\obj\Debug\net7.0\A Api.pdb
 D:\Alyne\Proyecto\PeruTripBackend\A Api\obj\Debug\net7.0\A Api.genruntimeconfig.cache
 D:\Alyne\Proyecto\PeruTripBackend\A Api\obj\Debug\net7.0\ref\A Api.dll
+D:\Alyne\Proyecto\PeruTripBackend\A Api\bin\Debug\net7.0\B Domain.dll
+D:\Alyne\Proyecto\PeruTripBackend\A Api\bin\Debug\net7.0\B Domain.pdb

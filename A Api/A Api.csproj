@@ -21,12 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
-      <Folder Include="Request\" />
-      <Folder Include="Response\" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <ProjectReference Include="..\B Domain\B Domain.csproj" />
       <ProjectReference Include="..\C Data\C Data.csproj" />
     </ItemGroup>
 

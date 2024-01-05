@@ -3964,6 +3964,21 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "B Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "C Data": "1.0.0",
+          "Microsoft.IdentityModel.Tokens": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/B Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/B Domain.dll": {}
+        }
+      },
       "C Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -11280,6 +11295,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "B Domain/1.0.0": {
+      "type": "project",
+      "path": "../B Domain/B Domain.csproj",
+      "msbuildProject": "../B Domain/B Domain.csproj"
+    },
     "C Data/1.0.0": {
       "type": "project",
       "path": "../C Data/C Data.csproj",
@@ -11290,6 +11310,7 @@
     "net7.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "B Domain >= 1.0.0",
       "C Data >= 1.0.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.22.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
@@ -11334,6 +11355,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\Alyne\\Proyecto\\PeruTripBackend\\B Domain\\B Domain.csproj": {
+              "projectPath": "D:\\Alyne\\Proyecto\\PeruTripBackend\\B Domain\\B Domain.csproj"
+            },
             "D:\\Alyne\\Proyecto\\PeruTripBackend\\C Data\\C Data.csproj": {
               "projectPath": "D:\\Alyne\\Proyecto\\PeruTripBackend\\C Data\\C Data.csproj"
             }
