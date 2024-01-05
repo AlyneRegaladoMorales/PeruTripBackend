@@ -45,4 +45,18 @@ public class UsuarioController :ControllerBase
         }
     }
 
+    [HttpPost("acceso")]
+    public async Task<IActionResult> AccesoAsync(string usuario, string contrasenia)
+    {
+        try
+        {
+            var usuarioResponse = await _usuarioDomain.existeUsuario(usuario, contrasenia);
+            return Ok(usuarioResponse);
+        }
+        catch (Exception e)
+        {
+            return StatusCode(500);
+        }
+    }
+
 }

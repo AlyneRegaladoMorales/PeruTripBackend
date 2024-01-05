@@ -30,4 +30,9 @@ public class UsuarioDomain : IUsuarioDomain
         }
         
     }
+
+    public async Task<bool> existeUsuario(string usuario, string contrasena)
+    {
+        return _usuarioData.ExisteUsuario(usuario, contrasena).Result;
+    }
 }

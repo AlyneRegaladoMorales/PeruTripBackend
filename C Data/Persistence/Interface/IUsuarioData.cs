@@ -6,4 +6,6 @@ public interface IUsuarioData
 {
     Task <IEnumerable<Usuario>> ListAsync();
     Task AddAsync(Usuario usuario);
+    Task<bool> ExisteUsuario(string usuario, string contrasena);
+    
 }
