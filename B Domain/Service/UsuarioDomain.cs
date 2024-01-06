@@ -31,8 +31,24 @@ public class UsuarioDomain : IUsuarioDomain
         
     }
 
-    public async Task<bool> existeUsuario(string usuario, string contrasena)
+    public async Task<Usuario> existeUsuario(string usuario, string contrasena)
     {
-        return _usuarioData.ExisteUsuario(usuario, contrasena).Result;
+        try
+        {
+            var usuarioExistente = await _usuarioData.ExisteUsuario(usuario, contrasena);
+            if (usuarioExistente != null)
+            {
+                return usuarioExistente;
+            }
+            else
+            {
+                throw new Exception("No hay coincidencia");
+            }
+        }
+        catch (Exception e)
+        {
+            throw new Exception($"Error al verificar la existencia del usuario: {e.Message}", e);
+        }
+
     }
 }

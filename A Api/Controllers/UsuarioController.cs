@@ -46,12 +46,13 @@ public class UsuarioController :ControllerBase
     }
 
     [HttpPost("acceso")]
-    public async Task<IActionResult> AccesoAsync(string usuario, string contrasenia)
+    public async Task<IActionResult> AccesoAsync(string correo, string contrasena)
     {
         try
         {
-            var usuarioResponse = await _usuarioDomain.existeUsuario(usuario, contrasenia);
-            return Ok(usuarioResponse);
+            var usuarioResponse = await _usuarioDomain.existeUsuario(correo, contrasena);
+            var response = _mapper.Map<Usuario, UsuarioResponse>(usuarioResponse);
+            return Ok(response);
         }
         catch (Exception e)
         {

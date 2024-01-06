@@ -27,12 +27,12 @@ public class UsuarioData : IUsuarioData
         await _appDbContext.SaveChangesAsync();
     }
     
-    public async Task<bool> ExisteUsuario(string usuario, string contrasena)
+    public async Task<Usuario> ExisteUsuario(string correo, string contrasena)
     {
         var usuarioResponse = await _appDbContext.Usuarios
-            .Where(x => x.correo == usuario && x.contrasena == contrasena)
+            .Where(x => x.correo == correo && x.contrasena == contrasena)
             .FirstOrDefaultAsync();
-        return usuarioResponse != null;
+        return usuarioResponse;
     }
     
    
